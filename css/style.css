@@ -1,0 +1,184 @@
+.hHeader {
+  background-image: url("/images/slideshow-1.jpg");
+}
+.navAs:hover {
+  color: #f25454;
+}
+.mainContainer {
+  width: 80%;
+  margin: auto;
+}
+.bigLetter {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #f2f2f2;
+}
+.aboutTittle,
+.teamTitle,
+.servicesMainTitle,
+.clientMainTitle,
+.touchMainTitle {
+  color: #282828;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  position: relative;
+}
+.aboutTittle::after,
+.teamTitle::after,
+.servicesMainTitle::after,
+.clientMainTitle::after,
+.touchMainTitle::after {
+  content: "";
+  background-color: #282828;
+  height: 1px;
+  width: 5%;
+  position: absolute;
+  top: 130%;
+  left: 48%;
+}
+.aboutTittle:hover .aboutTittle::after {
+  width: 15%;
+}
+.aboutP,
+.teamP,
+.servicesP,
+.clientP,
+.touchP {
+  color: #999;
+  font-size: 1.1rem;
+}
+.aboutPs {
+  color: #666666;
+  font-size: 0.9rem;
+}
+.progress {
+  height: 2px;
+}
+.brandingPro {
+  width: 80%;
+  height: 2px;
+  position: relative;
+}
+.brandingPro::before {
+  content: "Branding";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  color: black;
+}
+
+.webPro {
+  width: 95%;
+  height: 2px;
+}
+
+.graphicPro {
+  width: 85%;
+  height: 2px;
+}
+
+.developmentPro {
+  width: 70%;
+  height: 2px;
+}
+.teamPs {
+  color: #666;
+  font-size: 0.9rem;
+}
+.anyIdeas {
+  font-size: 2rem;
+  font-family: "poppins";
+}
+.anyIdeasBtn {
+  color: white;
+  text-decoration: none;
+  background-color: #f25454;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 1.1rem 1.8rem;
+  transition: 0.5s ease-in-out;
+}
+.anyIdeasBtn:hover {
+  background-color: #f38383;
+  color: white;
+}
+.services,
+.touch {
+  background-color: #fafafa;
+}
+.servicesTitle {
+  font-size: 1.1rem;
+  color: #282828;
+  transition: 0.5s ease-in-out;
+}
+.servicesTitle:hover {
+  color: #f25454;
+}
+.servicesPs {
+  font-size: 0.9rem;
+  color: #666666;
+}
+.servicesIC {
+  color: #f25454;
+  font-weight: 600;
+}
+.answers {
+  font-size: 2rem;
+  color: #282828;
+  font-weight: bolder;
+}
+.fa-map,
+.fa-mobile-alt,
+.fa-envelope {
+  color: #f25454;
+  font-size: 2.5rem;
+}
+.touch h4 {
+  font-size: 1.1rem;
+  color: #282828;
+}
+.touchPs {
+  font-size: 0.9rem;
+  color: #666666;
+}
+.touch hr {
+  color: #666666;
+}
+.sendMess {
+  text-decoration: none;
+  color: white;
+  background-color: #f25454;
+  padding: 0.7rem 1.4rem;
+  border-radius: 5px;
+}
+.preFooter {
+  background-image: url(/images/dotted-map.png);
+  background-size: cover;
+  background-position: center center;
+  background-color: rgb(35, 35, 35);
+}
+.preFooterMaintTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.preFooterPs,
+.preFooterAs,
+.preFooterABtn {
+  color: #b0b0b0;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.preFooterAs:hover {
+  color: #f25454;
+}
+.preFooterABtn:hover {
+  color: #f25454;
+}
+footer {
+  background-color: #222222;
+}
+.footerAs:hover .footerIs {
+  color: #f25454;
+}
